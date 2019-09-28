@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/black"
+              android:orientation="vertical">
+    <TextView
+            android:id="@+id/tvExpression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:gravity="end"
+            android:singleLine="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="40sp" android:background="@android:color/background_dark"/>
+    <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:singleLine="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/Borrar"
+                    style="@style/ActionButtonStyle"
+                    android:text="CE"/>
+
+            <TextView
+                    android:id="@+id/Abrir"
+                    style="@style/ActionButtonStyle"
+                    android:text="("/>
+
+            <TextView
+                    android:id="@+id/Cerrar"
+                    style="@style/ActionButtonStyle"
+                    android:text=")"/>
+
+            <TextView
+                    android:id="@+id/Dividir"
+                    style="@style/ActionButtonStyle"
+                    android:text="/"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/Siete"
+                    style="@style/NumberButtonStyle"
+                    android:text="7"/>
+
+            <TextView
+                    android:id="@+id/Ocho"
+                    style="@style/NumberButtonStyle"
+                    android:text="8" />
+
+            <TextView
+                    android:id="@+id/Nueve"
+                    style="@style/NumberButtonStyle"
+                    android:text="9"/>
+
+            <TextView
+                    android:id="@+id/Multiplicar"
+                    style="@style/ActionButtonStyle"
+                    android:text="*"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+            <TextView
+                    android:id="@+id/Cuatro"
+                    style="@style/NumberButtonStyle"
+                    android:text="4"/>
+
+            <TextView
+                    android:id="@+id/Cinco"
+                    style="@style/NumberButtonStyle"
+                    android:text="5"/>
+
+            <TextView
+                    android:id="@+id/Seis"
+                    style="@style/NumberButtonStyle"
+                    android:text="6"/>
+
+            <TextView
+                    android:id="@+id/Restar"
+                    style="@style/ActionButtonStyle"
+                    android:text="-"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+            <TextView
+                    android:id="@+id/Uno"
+                    style="@style/NumberButtonStyle"
+                    android:text="1"/>
+
+            <TextView
+                    android:id="@+id/Dos"
+                    style="@style/NumberButtonStyle"
+                    android:text="2"/>
+
+            <TextView
+                    android:id="@+id/Tres"
+                    style="@style/NumberButtonStyle"
+                    android:text="3"/>
+
+            <TextView
+                    android:id="@+id/Sumar"
+                    style="@style/ActionButtonStyle"
+                    android:background="@drawable/press"
+                    android:text="+"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/Punto"
+                    style="@style/NumberButtonStyle"
+                    android:text="."/>
+
+            <TextView
+                    android:id="@+id/Cero"
+                    style="@style/NumberButtonStyle"
+                    android:text="0"/>
+
+            <TextView
+                    android:id="@+id/Regresar"
+                    style="@style/NumberButtonStyle"
+                    android:text="C"/>
+
+
+            <TextView
+                    android:id="@+id/Igual"
+                    style="@style/ActionButtonStyle"
+                    android:text="="/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
